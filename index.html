@@ -1,65 +1,172 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Tags HTML e Suas Funcionalidades</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
 </head>
 <body>
-  <h1>Introdução ao HTML</h1>
+    <h1>Lista de Tags HTML e Suas Funcionalidades</h1>
+
     <table>
-        <th class="w3-light-yellow w3-hover-red">TAGS - Estruturais</th>
-        <tr> 
-          <td>&lt;html&gt;...&lt;/html&gt;</td>
-          <td>A tag HTML, abreviação de HyperText Markup Language, é usada para estruturar o conteúdo de uma página da web.</td>
-        </tr>
-        <tr>
-          <td>&lt;head&gt;...&lt;/head&gt;</td>
-          <td>A tag head é o cérebro do HTML, contendo informações cruciais sobre a página, como título, descrição, palavras-chave e referências a estilos e scripts.</td>
-        </tr>
-        <tr>
-          <td>&lt;title&gt;...&lt;/title&gt;</td>
-          <td>A tag title define o título da página exibido na barra de título do navegador. É uma parte essencial do cabeçalho <head> e ajuda os usuários e mecanismos de busca a identificar o conteúdo da página.</td>
-        </tr>
-        <tr>
-          <td>&lt;body&gt;...&lt;/body&gt;</td>
-          <td>A tag body é onde todo o conteúdo visível de uma página HTML é colocado. É o corpo principal da página.</td>
-        </tr>
-        <tr>
-          <td>&lt;main&gt;...&lt;/main&gt;</td>
-          <td>A tag main marca o conteúdo principal de uma página HTML, como artigos ou seções centrais. É uma forma de estruturar e destacar o conteúdo mais relevante.</td>
-        </tr>
-        <tr>
-          <td>&lt;body&gt;...&lt;/body&gt;</td>
-          <td>A tag body é onde todo o conteúdo visível de uma página HTML é colocado. É o corpo principal da página.</td>
-        </tr>
-      </table><br/><br/>
-      <table>
-        <th class="w3-light-yellow w3-hover-red">TAGS - Listas</th>
-        <tr> 
-          <td>&lt;ul&gt;...&lt;/ul&gt;</td>
-          <td> é usada para criar listas não ordenadas. Uma lista não ordenada é uma lista de itens onde a ordem dos itens não é importante</td>
-        </tr>
-        <tr>
-          <td>&lt;head&gt;...&lt;/head&gt;</td>
-          <td>é...</td>
-        </tr>
-        <tr>
-          <td>&lt;title&gt;...&lt;/title&gt;</td>
-          <td>é...</td>
-        </tr>
-        <tr>
-          <td>&lt;body&gt;...&lt;/body&gt;</td>
-          <td>é...</td>
-        </tr>
-        <tr>
-          <td>&lt;main&gt;...&lt;/main&gt;</td>
-          <td>é...</td>
-        </tr>
-        <tr>
-          <td>&lt;body&gt;...&lt;/body&gt;</td>
-          <td>é...</td>
-        </tr>
-      </table>
+        <thead>
+            <tr>
+                <th>Tag</th>
+                <th>Descrição</th>
+                <th>Funcionalidade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>&lt;!DOCTYPE&gt;</td>
+                <td>Declara o tipo de documento</td>
+                <td>Define o documento como HTML5</td>
+            </tr>
+            <tr>
+                <td>&lt;html&gt;&lt;/html&gt;</td>
+                <td>Define o documento HTML</td>
+                <td>Envolve todo o conteúdo da página</td>
+            </tr>
+            <tr>
+                <td>&lt;head&gt;&lt;/head&gt;</td>
+                <td>Contém metadados sobre o documento</td>
+                <td>Inclui título, links para estilos, scripts, etc.</td>
+            </tr>
+            <tr>
+                <td>&lt;title&gt;&lt;/title&gt;</td>
+                <td>Define o título da página</td>
+                <td>Exibido na aba do navegador</td>
+            </tr>
+            <tr>
+                <td>&lt;body&gt;&lt;/body&gt;</td>
+                <td>Define o corpo do documento</td>
+                <td>Contém todo o conteúdo visível da página</td>
+            </tr>
+            <tr>
+                <td>&lt;h1&gt; a &lt;h6&gt;</td>
+                <td>Tags de cabeçalho</td>
+                <td>Definem títulos e subtítulos</td>
+            </tr>
+            <tr>
+                <td>&lt;p&gt;&lt;/p&gt;</td>
+                <td>Parágrafo</td>
+                <td>Define blocos de texto</td>
+            </tr>
+            <tr>
+                <td>&lt;a&gt;&lt;/a&gt;</td>
+                <td>Âncora (link)</td>
+                <td>Cria hiperlinks para outras páginas ou seções</td>
+            </tr>
+            <tr>
+                <td>&lt;img&gt;</td>
+                <td>Imagem</td>
+                <td>Insere uma imagem no documento</td>
+            </tr>
+            <tr>
+                <td>&lt;ul&gt;&lt;/ul&gt;</td>
+                <td>Lista não ordenada</td>
+                <td>Cria uma lista com marcadores</td>
+            </tr>
+            <tr>
+                <td>&lt;ol&gt;&lt;/ol&gt;</td>
+                <td>Lista ordenada</td>
+                <td>Cria uma lista numerada</td>
+            </tr>
+            <tr>
+                <td>&lt;li&gt;&lt;/li&gt;</td>
+                <td>Item de lista</td>
+                <td>Define itens em listas ordenadas ou não ordenadas</td>
+            </tr>
+            <tr>
+                <td>&lt;table&gt;&lt;/table&gt;</td>
+                <td>Tabela</td>
+                <td>Cria uma estrutura de tabela</td>
+            </tr>
+            <tr>
+                <td>&lt;tr&gt;&lt;/tr&gt;</td>
+                <td>Linha da tabela</td>
+                <td>Define uma linha em uma tabela</td>
+            </tr>
+            <tr>
+                <td>&lt;td&gt;&lt;/td&gt;</td>
+                <td>Célula da tabela</td>
+                <td>Define uma célula de dados</td>
+            </tr>
+            <tr>
+                <td>&lt;th&gt;&lt;/th&gt;</td>
+                <td>Cabeçalho da tabela</td>
+                <td>Define uma célula de cabeçalho</td>
+            </tr>
+            <tr>
+                <td>&lt;form&gt;&lt;/form&gt;</td>
+                <td>Formulário</td>
+                <td>Cria um formulário de entrada de dados</td>
+            </tr>
+            <tr>
+                <td>&lt;input&gt;</td>
+                <td>Entrada de dados</td>
+                <td>Define campos de entrada para formulários</td>
+            </tr>
+            <tr>
+                <td>&lt;button&gt;&lt;/button&gt;</td>
+                <td>Botão</td>
+                <td>Cria um botão clicável</td>
+            </tr>
+            <tr>
+                <td>&lt;div&gt;&lt;/div&gt;</td>
+                <td>Divisão</td>
+                <td>Define uma seção de bloco</td>
+            </tr>
+            <tr>
+                <td>&lt;span&gt;&lt;/span&gt;</td>
+                <td>Span</td>
+                <td>Define uma seção em linha</td>
+            </tr>
+            <tr>
+                <td>&lt;footer&gt;&lt;/footer&gt;</td>
+                <td>Rodapé</td>
+                <td>Define o rodapé da página</td>
+            </tr>
+            <tr>
+                <td>&lt;header&gt;&lt;/header&gt;</td>
+                <td>Cabeçalho</td>
+                <td>Define o cabeçalho da página</td>
+            </tr>
+            <tr>
+                <td>&lt;section&gt;&lt;/section&gt;</td>
+                <td>Seção</td>
+                <td>Define uma seção de conteúdo</td>
+            </tr>
+            <tr>
+                <td>&lt;article&gt;&lt;/article&gt;</td>
+                <td>Artigo</td>
+                <td>Define um conteúdo independente e autônomo</td>
+            </tr>
+            <tr>
+                <td>&lt;nav&gt;&lt;/nav&gt;</td>
+                <td>Navegação</td>
+                <td>Define links de navegação</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>
